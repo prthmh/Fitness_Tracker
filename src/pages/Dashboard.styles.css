@@ -1,0 +1,47 @@
+.dashboard {
+  margin: 0rem 15rem;
+}
+
+.metrics {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.metrics_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #262626;
+}
+.metrics_item > h3,
+.metrics_item > p {
+  margin: 0;
+}
+
+.calories_burn {
+  background-color: #bfdbfe;
+}
+
+.calories_consumed {
+  background-color: #fed7aa;
+}
+
+.calories_goal {
+  background-color: #c7d2fe;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    margin: 0;
+  }
+  .metrics {
+    margin-top: 1rem;
+    display: grid;
+  }
+}

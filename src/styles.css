@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+.App {
+  /* text-align: center; */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #262626;
+  margin: 0;
+  color: #e0f2fe;
+}
